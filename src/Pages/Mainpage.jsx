@@ -129,7 +129,9 @@ function Mainpage() {
                       {UN}
                     </a>
                   </div>
+                  
                 </div>
+                <h1 className="chit-chat">Chit-Chat</h1>
                 <div className="navbar-nav ">
                     <input
                       onChange={(e) => setseachvalue(e.target.value)}
@@ -145,7 +147,9 @@ function Mainpage() {
                     <IconButton>
                       <SearchIcon onClick={searchHandler} />
                     </IconButton>
+                    
                 </div>
+                
               </div>
             </nav>
           </div>

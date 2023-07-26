@@ -62,7 +62,7 @@ const setProfilePicture = async () => {
             
           <div className="title-container">
           <div className="brand">
-                <h1>Product Page</h1>
+                <h1>Chit-Chat</h1>
             </div>
             <h1>Pick an Avatar as your profile picture</h1>
           </div>

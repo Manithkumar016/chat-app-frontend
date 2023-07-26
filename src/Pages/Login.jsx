@@ -77,7 +77,7 @@ function Login() {
       <FormContainer>
         <form onSubmit={(event)=>handleSubmit(event)}>
             <div className="brand">
-                <h1>Product Page</h1>
+                <h1>Chit-Chat</h1>
             </div>
             <input type="text" placeholder='Username' name='username' onChange={(e)=>handleChange(e)}/>
             <input type="password" placeholder='Password' name='password' onChange={(e)=>handleChange(e)}/>
