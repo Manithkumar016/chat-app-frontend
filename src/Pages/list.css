@@ -42,6 +42,9 @@
     
 }
 
+
+
+
 .chat_msg{
     position: relative;
     font-size: 16px;
@@ -58,7 +61,6 @@
     padding: 10px;
     width: fit-content;
     border-radius: 10px;
-    background-color: #ffffff;
     margin-bottom: 30px;
     margin-left: 70%;
     background-color: #dcf8c6;
@@ -111,4 +113,68 @@
 .Chat_footer > .MuiSvgIcon-root {
     padding: 10px;
     color: gray;
+}
+
+@media (max-width: 344px){
+    .chat_headerRight{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 344px){
+   
+    .Chat_footer{
+        display: flex;
+        justify-content: space-between;
+        height: 55px;
+        padding-left: 30%;
+        border-top: 1px solid rgb(231, 26, 26);
+    }
+}
+
+@media (max-width: 344px){
+    .chat_timestamp {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 344px){
+    .chat_name {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width : 344px) {
+    .chat_reciver{
+        position: relative;
+        font-size: 16px;
+        padding: 10px;
+        width: fit-content;
+        border-radius: 10px;
+        background-color: #dcf8c6;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 344px){
+    .Chat_footer{
+        display: flex;
+        justify-content: space-between;
+        height: 62px;
+        padding-left: 0;
+        border-top: 1px solid rgb(231, 26, 26);
+    }
+    
+}
+
+@media (max-width: 344px){
+   .listbody{
+    height: 100vh;
+   }
+    
 }
