@@ -10,6 +10,7 @@ import { contactRoute, userRoute } from "../Utils/APIRouters";
 import List from "./List";
 import SearchIcon from "@mui/icons-material/Search";
 import { IconButton } from "@mui/material";
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 
 function Mainpage() {
   window.onpopstate = () => {
@@ -156,7 +157,8 @@ function Mainpage() {
           {/* navbar close */}
           <div className="play">
             <div className="container sidebar">
-            <h4 style={{textAlign:"center",color:"white"}}><b>Contacts</b></h4>
+            <h4 className="oned"><b>Contacts</b></h4>
+            <i  className="onec"><ConnectWithoutContactIcon></ConnectWithoutContactIcon></i>
               <div className="container contacts">
                 {
                   contacts.map((contact,index)=>{
@@ -164,8 +166,8 @@ function Mainpage() {
                       <a href="#" onClick=
                       {()=>contacthandle(index)} style={{textDecoration:"none",color:"black"}}> 
                         <div className="single_contact">
-                        <img src={avatars[contact.index]}></img>
-                        <h5><b>{contact.username}</b></h5>
+                        <img className="onea" src={avatars[contact.index]}></img>
+                        <h5 className="onee"><b>{contact.username}</b></h5>
                       </div>
                     </a>
                     )
