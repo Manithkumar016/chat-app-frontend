@@ -181,3 +181,65 @@
     text-align: center;
     font-weight: bolder;
 }
+
+
+@media screen and (max-width: 345px){
+    .chit-chat{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 345px){
+
+    .navbar-nav > input{
+        display: none;
+    }
+}
+
+.onec{
+    display: none;
+}
+
+@media screen and (max-width: 345px){
+
+    .onec{
+       display: inline-block;
+       margin-left: 15px;
+       color: aqua;
+    }
+}
+.oned{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 345px){
+
+    .oned{
+       display: none;
+    }
+}
+
+@media screen and (max-width: 345px){
+
+    .onea{
+       display: none;
+    }
+}
+@media screen and (max-width: 345px){
+
+    .onee{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 345px){
+
+    .logout {
+        width: 70px;
+        font-size: 2px; /* Decrease the font size */
+        margin: unset;
+        padding: unset; /* Adjust the padding to make the button smaller */
+        border-radius: 114px; /* Optional: Add rounded corners for a smaller button */
+    }
+}
