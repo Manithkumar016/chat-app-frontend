@@ -1,4 +1,4 @@
-export const host = "https://frantic-stole-hen.cyclic.app";
+export const host = "https://kind-gold-hermit-crab-wig.cyclic.app";
 
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
