@@ -11,6 +11,7 @@ import List from "./List";
 import SearchIcon from "@mui/icons-material/Search";
 import { IconButton } from "@mui/material";
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
+import robot from "../Assets/robot.gif"
 
 function Mainpage() {
   window.onpopstate = () => {
@@ -19,7 +20,6 @@ function Mainpage() {
   };
   const [isclick, setisclick] = useState(false);
   const [isclicklist, setisclicklist] = useState(false);
-  const [searchvalue, setseachvalue] = useState("");
   const [searchvalue2, setseachvalue2] = useState("");
   const [searchvalue3,setsearchvalue3]=useState(false);
   const [contacts,setcontacts]=useState([]);
@@ -135,13 +135,6 @@ function Mainpage() {
                 <h1 className="chit-chat">Chit-Chat</h1>
                 <div className="navbar-nav ">
                     <input
-                      onChange={(e) => setseachvalue(e.target.value)}
-                      onKeyUp={(e) => {
-                        if (e.key == "enter" || e.keyCode == 13) {
-                          searchHandler();
-                          e.target.value=""
-                        }
-                      }}
                       type="text"
                       placeholder="Search"
                     ></input>
@@ -185,7 +178,16 @@ function Mainpage() {
                 <List handlelist={handleDONE} searchvalue={searchvalue2} issearch={searchvalue3} handlelist1={handlelistt} handleDONE={handleDONE}
                 handleCancel={handleCancel} contacts={contacts}  contactindex={contactindex} />
               )}
+              {
+                !isclicklist && 
+                (
+                  <div style={{display:"grid",justifyContent:"center",zIndex:"100"}}>
+                    <img src={robot} alt="robot" />
+                  </div>
+                )
+              }
             </div>
+            
           </div>
           <div className="addtolist">
             <div className="parent">
