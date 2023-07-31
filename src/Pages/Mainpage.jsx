@@ -162,6 +162,7 @@ function Mainpage() {
                 (
                   <div style={{display:"grid",justifyContent:"center",zIndex:"100"}}>
                     <img src={robot} alt="robot" />
+                    <h1>hii</h1>
                   </div>
                 )
               }
