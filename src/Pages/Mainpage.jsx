@@ -154,7 +154,6 @@ function Mainpage() {
             <div className="listbody">
               
               {!isclick && isclicklist && (
-                <h1>hiiii</h1>
                 <List handlelist={handleDONE} searchvalue={searchvalue2} issearch={searchvalue3} handlelist1={handlelistt} handleDONE={handleDONE}
                 handleCancel={handleCancel} contacts={contacts}  contactindex={contactindex} />
               )}
@@ -163,7 +162,6 @@ function Mainpage() {
                 (
                   <div style={{display:"grid",justifyContent:"center",zIndex:"100"}}>
                     <img src={robot} alt="robot" />
-                    <h1>hii</h1>
                   </div>
                 )
               }
