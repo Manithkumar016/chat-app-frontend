@@ -8,7 +8,7 @@
     padding: unset;
     height: 543px;
     margin: 35px auto;
-    background-color: beige;
+    background-color: rgb(15, 20, 45);
     /* overflow: hidden; */
     
 }  
@@ -88,7 +88,7 @@
     }
 
 }
-@media (max-width: 390px){
+@media (max-width: 344px){
     .sidebar{
         height: 350%;
     }
@@ -183,13 +183,13 @@
 }
 
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
     .chit-chat{
         display: none;
     }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
 
     .navbar-nav > input{
         display: none;
@@ -200,7 +200,7 @@
     display: none;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
 
     .onec{
        display: inline-block;
@@ -213,27 +213,27 @@
     color: white;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
 
     .oned{
        display: none;
     }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
 
     .onea{
        display: none;
     }
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
 
     .onee{
         font-size: 10px;
     }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 345px){
 
     .logout {
         width: 70px;
