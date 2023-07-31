@@ -20,35 +20,33 @@ function Mainpage() {
   };
   const [isclick, setisclick] = useState(false);
   const [isclicklist, setisclicklist] = useState(false);
-  const [searchvalue2, setseachvalue2] = useState("");
-  const [searchvalue3,setsearchvalue3]=useState(false);
   const [contacts,setcontacts]=useState([]);
-  const handleDONE = () => {
-    setisclick(false);
-    setisclicklist(true);
-  };
+  // const handleDONE = () => {
+  //   setisclick(false);
+  //   setisclicklist(true);
+  // };
 
-  const handleCancel = () => {
-    setisclick(false);
-    setisclicklist(false);
-  };
+  // const handleCancel = () => {
+  //   setisclick(false);
+  //   setisclicklist(false);
+  // };
 
   const handlelist1 = () => {
     setisclicklist(!isclicklist);
     setisclick(false);
   };
 
-  const handlelistt=()=>{
-    setisclicklist(false);
-    setTimeout(() => {
-      setisclicklist(true);
-    }, 0.0001);
-  }
+  // const handlelistt=()=>{
+  //   setisclicklist(false);
+  //   setTimeout(() => {
+  //     setisclicklist(true);
+  //   }, 0.0001);
+  // }
 
-  const handleAdd = () => {
-    setisclick(true);
-    setisclicklist(false);
-  };
+  // const handleAdd = () => {
+  //   setisclick(true);
+  //   setisclicklist(false);
+  // };
 
   const navigate = useNavigate();
   const [avatars, setAvatars] = useState([avatar1, avatar2, avatar3]);
