@@ -94,18 +94,18 @@ const submithandler = async (e) => {
             <Avatar src={avatars[contacts[contactindex].index]}/>
           </div>
           <div className='chat_headerInfo'>
-              <h6 style={{color:"aqua"}}><b>{contacts[contactindex].username}</b></h6>
+              <h6><b>{contacts[contactindex].username}</b></h6>
               <p>Last Seen...</p>
           </div>
           <div className='chat_headerRight'>
               <IconButton>
-                <SearchIcon style={{color:"aqua"}}/>
+                <SearchIcon/>
               </IconButton>
               <IconButton>
-                <AttachFileIcon style={{color:"aqua"}}/>
+                <AttachFileIcon/>
               </IconButton>
               <IconButton>
-                <MoreVertIcon style={{color:"aqua"}}/>
+                <MoreVertIcon/>
               </IconButton>
           </div>
       </div >
@@ -145,11 +145,11 @@ const submithandler = async (e) => {
       <div className='Chat_footer'>
         
         <form >
-        <TagFacesIcon style={{color:"aqua"}}/>
+        <TagFacesIcon/>
           <input  placeholder='Type a message' type='text' value={message} onChange={(e)=>setmessage(e.target.value)}/>
           
-          <MicIcon style={{color:"aqua"}}/>
-          <button style={{backgroundColor:"transparent",color:"aqua"}} onClick={submithandler} className="btn btns"><SendIcon /></button>
+          <MicIcon/>
+          <button style={{backgroundColor:"transparent"}} onClick={submithandler} className="btn btns"><SendIcon /></button>
         </form>
         
       </div>
